@@ -30,3 +30,4 @@ F:\FSG\ASP\TP4\HomeWorkProject\HomeWorkProject\obj\Debug\net8.0\refint\HomeWorkP
 F:\FSG\ASP\TP4\HomeWorkProject\HomeWorkProject\obj\Debug\net8.0\HomeWorkProject.pdb
 F:\FSG\ASP\TP4\HomeWorkProject\HomeWorkProject\obj\Debug\net8.0\HomeWorkProject.genruntimeconfig.cache
 F:\FSG\ASP\TP4\HomeWorkProject\HomeWorkProject\obj\Debug\net8.0\ref\HomeWorkProject.dll
+F:\FSG\ASP\TP4\HomeWorkProject\HomeWorkProject\obj\Debug\net8.0\HomeWorkProject.sourcelink.json

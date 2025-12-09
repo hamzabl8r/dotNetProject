@@ -10,10 +10,10 @@ namespace HomeWorkProject.Models.Repositories
 
         public EmployeeRepository()
         {
-            // Initial Seed Data
-            employees.Add(new Employee { Id = 1, Name = "Alice Smith", Departement = "HR", Salary = 60000 });
-            employees.Add(new Employee { Id = 2, Name = "Bob Johnson", Departement = "IT", Salary = 75000 });
-            employees.Add(new Employee { Id = 3, Name = "Charlie Brown", Departement = "Finance", Salary = 65000 });
+            employees.Add(new Employee { Id = 1, Name = "Sofien Ben Ali", Departement = "Comptabilite", Salary = 1000 });
+            employees.Add(new Employee { Id = 2, Name = "Mourad Triki", Departement = "HR", Salary = 1500 });
+            employees.Add(new Employee { Id = 3, Name = "Ali Ben Mohamed", Departement = "Informatique", Salary = 1700 });
+            employees.Add(new Employee { Id = 4, Name = "Tarek Aribi", Departement = "Informatique", Salary = 1100 });
         }
 
         public List<Employee> GetAll() => employees;

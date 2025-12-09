@@ -1,26 +1,17 @@
-using HomeWorkProject.Models;
 using HomeWorkProject.Models.Repositories;
+using HomeWorkProject.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<IRepository<Employee>, EmployeeRepository>();
+
+builder.Services.AddSingleton<IRepository<Employee>, EmployeeRepository>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-    app.UseHsts();
-}
-
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapControllerRoute(
